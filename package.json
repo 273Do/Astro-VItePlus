@@ -18,6 +18,8 @@
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
     "vite-plus": "catalog:"
   },
   "engines": {
