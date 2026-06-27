@@ -32,7 +32,8 @@ export default defineConfig({
     },
   },
   staged: {
-    "*": "vp check --fix",
+    "*.{js,ts,jsx,tsx}": "vp check --fix",
+    "*.astro": "vp run astro:check",
   },
   lint: { options: { typeAware: true, typeCheck: true } },
 });
